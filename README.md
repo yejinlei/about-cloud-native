@@ -38,7 +38,8 @@
 
 #### 消息中间件-Kafka
 
-![](https://gitee.com/yejinlei/about-bigdata/raw/master/%E6%9C%89%E5%85%B3Kafka.png)
+> ![](https://gitee.com/yejinlei/about-bigdata/raw/master/%E6%9C%89%E5%85%B3Kafka.png)
+> 摘自: https://gitee.com/yejinlei/about-bigdata
 
 ## 二. 容器及Kubernetes
 

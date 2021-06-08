@@ -36,6 +36,10 @@
 
 > ![](microservice/有关Nginx_OpenResty.png)
 
+#### 消息中间件-Kafka
+
+![](https://gitee.com/yejinlei/about-bigdata/raw/master/%E6%9C%89%E5%85%B3Kafka.png)
+
 ## 二. 容器及Kubernetes
 
 ​		容器是云原生应用的最小的构建单元，一次构建，到处运行;

@@ -4,6 +4,8 @@
 
 ![Landscpae](doc/landscape.png)
 
+![](doc/all.jpg)
+
 ---
 
 # Cloud Native
@@ -12,9 +14,19 @@
 
 ## 一. 微服务
 
-![]()
+### 1. 常用框架
 
-- [ ] ### API网关
+#### Spring Cloud框架
+> 
+> 
+
+#### Dubbo框架
+
+> ![](microservice/dubbo-framework.jpg)
+> 摘自: https://dubbo.apache.org/zh/docs/v2.7/dev/design/
+
+### 2. 基础服务
+#### API网关服务
 
   ![](microservice/有关Nginx_OpenResty.png)
 

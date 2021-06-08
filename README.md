@@ -28,7 +28,7 @@
 ### 2. 基础服务
 #### API网关服务
 
-  ![](microservice/有关Nginx_OpenResty.png)
+> ![](microservice/有关Nginx_OpenResty.png)
 
 ## 二. 容器
 

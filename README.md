@@ -41,7 +41,7 @@
 > ![](https://gitee.com/yejinlei/about-bigdata/raw/master/%E6%9C%89%E5%85%B3Kafka.png)
 > 摘自: https://gitee.com/yejinlei/about-bigdata
 
-## 二. 容器及Kubernetes
+## 二. 容器及Kubernetes(原理及使用,详见:[yejinlei/about-os](https://gitee.com/yejinlei/about-os/))
 
 ​		容器是云原生应用的最小的构建单元，一次构建，到处运行;
 

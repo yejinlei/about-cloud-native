@@ -12,7 +12,7 @@
 
 ​		云原生既包含技术（微服务，敏捷基础设施），也包含管理（DevOps，持续交付，康威定律，重组等）。云原生也可以说是一系列云技术、企业管理方法的集合。
 
-## 一. 微服务
+## 一. Microservice微服务
 
 ### 1. 常用框架
 
@@ -47,9 +47,9 @@
 
 ​		Kubernetes是云原生操作系统，声明式 API 是它的核心，Operator 操控万物。
 
-## 三. 持续交付
+## 三. CI/CD持续交付
 
-## 四. DevOps
+## 四. DevOps开发与运维
 
 ## 五. 参考资料
 1. [迁移到云原生应用架构](https://jimmysong.io/migrating-to-cloud-native-application-architectures/)

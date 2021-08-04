@@ -14,7 +14,16 @@
 
 ## 一. Microservice微服务
 
-### 1. 常用框架
+### 1. 微服务本质
+
+> In short, the microservice architectural style [[1\]](https://martinfowler.com/articles/microservices.html#footnote-etymology) is an approach to developing a single application as a suite of **small** services, each running in its own process and communicating with lightweight mechanisms, often an HTTP resource API. These services are built around business capabilities and **independently deployable** by **fully automated deployment** machinery. There is a bare minimum of centralized management of these services, which may be written in different programming languages and use different data storage technologies.                                                                                                        -   摘自: Martin Fowler的[microservices](http://martinfowler.com/articles/microservices.html)
+>
+> 
+>
+> 简单来说，微服务架构风格是一种将一个单一应用程序开发为一组**小型**服务的方法，每个服务运行在自己的进程中，服务间通信采用轻量级通信机制(通常用HTTP资源API)。这些服务围绕业务能力构建并且可通过**全自动部署**机制**独立部署**。这些服务共用一个最小型的集中式的管理，服务可用不同的语言开发，使用不同的数据存储技术。                  - 摘自: YYGCui‘s Blog [微服务]([http://blog.cuicc.com/blog/2015/07/22/microservices/#%E8%BF%9B%E5%8C%96%E5%BC%8F%E8%AE%BE%E8%AE%A1](http://blog.cuicc.com/blog/2015/07/22/microservices/#进化式设计))
+
+
+### 2. 常用框架
 
 #### Spring Cloud框架
 > 
@@ -36,7 +45,20 @@
 
 > ![](microservice/有关Nginx_OpenResty.png)
 
-#### 消息中间件-Kafka
+##### ☞ Nginx/OpenResty
+
+​	*参考资料*
+
+1. [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+
+##### ☞ Traefik
+
+​	*参考资料*
+
+​	1. [Traefik book](https://www.qikqiak.com/traefik-book/getting-started/quick-start/)
+
+#### 消息中间件
+##### ☞ Kafka
 
 > ![](https://gitee.com/yejinlei/about-bigdata/raw/master/%E6%9C%89%E5%85%B3Kafka.png)
 > 摘自: https://gitee.com/yejinlei/about-bigdata

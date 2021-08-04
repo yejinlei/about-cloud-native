@@ -73,7 +73,7 @@
 
 > **Continuous Integration (CI), 持续集成**
 > ![](devops/ci.png)
-> Continuous Delivery (CD), 持续交付
+> **Continuous Delivery (CD), 持续交付**
 > ![](devops/cd.png)
 > **Continuous Deployment, 持续部署**
 > ![](devops/cdeployment.png)

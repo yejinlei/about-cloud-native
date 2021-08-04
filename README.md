@@ -69,9 +69,21 @@
 
 ​		Kubernetes是云原生操作系统，声明式 API 是它的核心，Operator 操控万物。
 
-## 三. CI/CD持续交付
+## 三. CI/CD & Devops
 
-## 四. DevOps开发与运维
+> **Continuous Integration (CI), 持续集成**
+> ![](devops/ci.png)
+> Continuous Delivery (CD), 持续交付
+> ![](devops/cd.png)
+> **Continuous Deployment, 持续部署**
+> ![](devops/cdeployment.png)
+> **DevOps, 开发自运维**
+> ![](devops/devops_old.png)
+> ![](devops/devops_new.png)
 
-## 五. 参考资料
+*参考资料*
+
+- [The Product Managers’ Guide to Continuous Delivery and DevOps](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+
+## 四. 参考资料
 1. [迁移到云原生应用架构](https://jimmysong.io/migrating-to-cloud-native-application-architectures/)

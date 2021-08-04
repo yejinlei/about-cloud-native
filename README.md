@@ -84,6 +84,7 @@
 *参考资料*
 
 - [The Product Managers’ Guide to Continuous Delivery and DevOps](https://www.mindtheproduct.com/what-the-hell-are-ci-cd-and-devops-a-cheatsheet-for-the-rest-of-us/)
+- [刘相-加速企业敏捷的DevOps平台](devops/刘相-加速企业敏捷的DevOps平台.pdf)
 
 ## 四. 参考资料
 1. [迁移到云原生应用架构](https://jimmysong.io/migrating-to-cloud-native-application-architectures/)

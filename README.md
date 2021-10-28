@@ -40,21 +40,121 @@
 
 
 ### 3. 基础服务
-#### API网关服务
+#### 3.1 API网关服务
 
 > ![](microservice/有关Nginx_OpenResty.png)
 
-##### ☞ Nginx/OpenResty
+##### 3.1.1 基本服务
 
-​	*参考资料*
+- Web服务器
+  - http服务器
+  - https服务器
+  - http2服务器
+  - http3服务器
+  - websocket服务器
+- 正向代理
+- 反向代理
+  - http/https协议
+  - tcp协议
+  - fastcgi协议
+  - websocket协议
+- 动静分离
+- 负载均衡
+  - 加权轮询
+  - 源IP散列
+  - 响应时间
+  - URL散列
+- 主备容灾
+- 缓存服务
+- 动态限流
+- 流量路由
+- 命名空间限制
+- 上游探针
+- 认证方式
+  - basic auth
+- 流量分配
+- 请求跟踪
+  - trace
+- 其他
 
-1. [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+##### 3.1.2 Nginx
 
-##### ☞ Traefik
+###### 1) nginx架构
 
-​	*参考资料*
+![](microservice/ngxin_architecture.png)
 
-​	1. [Traefik book](https://www.qikqiak.com/traefik-book/getting-started/quick-start/)
+###### 2) 基本功能及配置
+
+- 全局配置(基本配置)
+
+  ```nginx
+  user                 www-data;
+  pid                  /run/nginx.pid;
+  worker_processes     auto;
+  worker_rlimit_nofile 65535;
+  
+  # Load modules
+  include              /etc/nginx/modules-enabled/*.conf;
+  
+  events {
+      multi_accept       on;
+      worker_connections 65535;
+  }
+  
+  http {
+      charset                utf-8;
+      sendfile               on;
+      tcp_nopush             on;
+      tcp_nodelay            on;
+      server_tokens          off;
+      log_not_found          off;
+      types_hash_max_size    2048;
+      types_hash_bucket_size 64;
+      client_max_body_size   16M;
+  
+      # MIME
+      include                mime.types;
+      default_type           application/octet-stream;
+  
+      # Logging
+      access_log             /var/log/nginx/access.log;
+      error_log              /var/log/nginx/error.log warn;
+  
+      # Load configs
+      include                /etc/nginx/conf.d/*.conf;
+      include                /etc/nginx/sites-enabled/*;    #站点配置
+  }
+  ```
+
+- 站点配置
+	```nginx
+	
+	```
+
+###### 3) 参考资料
+
+  - [nginx documentation](http://nginx.org/en/docs/)
+  - [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html)
+  - [Nginx在线配置](https://www.digitalocean.com/community/tools/nginx?global.app.lang=zhCN)
+
+##### 3.1.3 Openresty
+
+###### 1) 参考资料
+
+- [Openresty github]](https://github.com/openresty/openresty)
+
+##### 3.1.4 Kong
+###### 1) 参考资料
+- [Kong OSS Docs](https://docs.konghq.com/gateway-oss/)
+- [KongGuide code](https://github.com/KongGuide/Book)
+- [KONG API Gateway v1.5]](https://github.com/cloudframeworks-apigateway/user-guide-apigateway)
+##### 3.1.5 Traefik
+###### 1) 架构
+![](microservice/gateway/traefik-architecture.png)
+###### 2) 参考资料
+
+- [Traefik Docs](https://doc.traefik.io/traefik/)
+- [Traefik Book](https://www.qikqiak.com/traefik-book/getting-started/quick-start/)
 
 #### 消息中间件
 ##### ☞ Kafka

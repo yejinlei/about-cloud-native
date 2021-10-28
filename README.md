@@ -147,7 +147,7 @@
 ###### 1) 参考资料
 - [Kong OSS Docs](https://docs.konghq.com/gateway-oss/)
 - [KongGuide code](https://github.com/KongGuide/Book)
-- [KONG API Gateway v1.5]](https://github.com/cloudframeworks-apigateway/user-guide-apigateway)
+- [KONG API Gateway v1.5](https://github.com/cloudframeworks-apigateway/user-guide-apigateway)
 ##### 3.1.5 Traefik
 ###### 1) 架构
 ![](microservice/gateway/traefik-architecture.png)
